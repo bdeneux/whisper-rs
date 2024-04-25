@@ -1,0 +1,11 @@
+[package]
+name = "stream"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hound = "3"
+cpal = "0.15.3"
+whisper-rs = { path = "../.." }
+ringbuf = "0.3.2"
+samplerate = "0.2.4"
